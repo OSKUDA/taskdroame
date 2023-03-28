@@ -19,8 +19,8 @@ class HomeScreen extends StatelessWidget {
             child: StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('stories')
-                  .where('sharedWith',
-                      arrayContains: FirebaseAuth.instance.currentUser!.uid)
+                  // .where('sharedWith',
+                  //     arrayContains: FirebaseAuth.instance.currentUser!.uid)
                   .snapshots(),
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {

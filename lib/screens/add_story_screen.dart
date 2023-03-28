@@ -136,13 +136,7 @@ class _AddStoryScreenState extends State<AddStoryScreen> {
                   //   }
                   // },
                   readOnly: true,
-                  // controller: TextEditingController(
-                  //   text: _sharedWith.isEmpty
-                  //       ? ''
-                  //       : _sharedWith.length == 1
-                  //           ? _sharedWith[0]
-                  //           : '${_sharedWith[0]} and ${_sharedWith.length - 1} others',
-                  // ),
+                  
                 ),
                 SizedBox(height: 16.0),
                 if (_errorText != null)
