@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131110564836",
+    "project_id": "taskdroame",
+    "storage_bucket": "taskdroame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131110564836:android:ece4218c10d138c33d4df1",
+        "android_client_info": {
+          "package_name": "com.example.taskdroame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131110564836-unq3fecn0b1svi1gkgtj413oilna7l79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXC74LwIzIF5jdoAfWeLRkVf82hVkqOUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131110564836-unq3fecn0b1svi1gkgtj413oilna7l79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
